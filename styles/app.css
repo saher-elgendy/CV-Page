@@ -13,11 +13,13 @@ html, body {
 }
 
 ::-moz-selection {
+  /* color: violet; */
   background: violet;
   color: #fff;  
 }
 
 ::selection {
+  /* color: violet; */
   background: violet;
   color: #fff;  
 }
@@ -390,6 +392,7 @@ header img {
   width: 25%;
   padding: 0.5em;
   background: #fff;
+  /* max-height: 380px; */
   margin-top: 1em;
   min-height: 50vh;
 }
@@ -591,6 +594,13 @@ header img {
 }
 
 #all-interests {
+  /* display: flex;
+  align-items: center;   
+  flex-wrap: wrap;
+  padding: 1em;
+  position: relative;
+  bottom: 30px;
+  right: 20px; */
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -641,6 +651,7 @@ header img {
       -ms-flex-order: 3;
           order: 3;
   max-height: 350px;
+  /* padding: 1em; */
   text-align: left;
   font-size: 0.7em;
 
@@ -962,6 +973,7 @@ header img {
   -webkit-transition-duration: 0.4s;
      -moz-transition-duration: 0.4s;
           transition-duration: 0.4s;
+  /* color: #9d00ff; */
 }
 
 #contact-me i:hover {
@@ -1109,35 +1121,6 @@ header img {
 
 }
 
-@media (max-width: 550px) {
-  #hamburger {
-    display: block;
-  }
-
-  #nav-items {
-    position: absolute;
-    left: -350px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-       -moz-box-orient: vertical;
-       -moz-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-transition: 0.3s;
-    -moz-transition: 0.3s;
-    transition: 0.3s;
-    text-align: left;
-    background: lightgreen;
-    color: white;
-  }
-
-  .follower {
-    width: 40vw;
-  }
-
-}
-
 @media (max-width: 992px) {
   
   #info_wrapper {
@@ -1184,6 +1167,53 @@ header img {
 }
 
 @media(max-width: 550px) {
+
+  #hamburger {
+    display: block;
+  }
+
+  #nav-items {
+    position: absolute;
+    left: -350px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+       -moz-box-orient: vertical;
+       -moz-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    transition: 0.3s;
+    text-align: left;
+    background: lightgreen;
+    color: white;
+  }
+
+ .menu {
+   margin: 0;
+   padding: 0;
+ }
+  .sub-menu {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: max-height 0.4s;
+    -moz-transition: max-height 0.4s;
+    transition: max-height 0.4s;
+    position: absolute;
+  }
+
+
+  .menu:hover .sub-menu{
+    max-height: 150px;
+    opacity: 1;
+
+  }
+
+
+  .follower {
+    width: 40vw;
+  }
    
    #info_wrapper {
     -webkit-box-orient: vertical;
