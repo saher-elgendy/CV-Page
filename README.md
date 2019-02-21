@@ -12,4 +12,4 @@ A CV Page created by React Library and Css, The page is responsive and accessibl
 
 ## How to run
 
-Clone the folder using this command ```git clone https://github.com/saher-elgendy/React-Styles
+Clone the folder using this command ```git clone https://github.com/saher-elgendy/CV-Page```, then run this command in the project folder ```npm start```.
