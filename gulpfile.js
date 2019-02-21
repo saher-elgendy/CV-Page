@@ -13,13 +13,3 @@ gulp.task('prefix', function () {
     .pipe(autoprefixer({ browsers: autoprefixBrowsers }))
     .pipe(gulp.dest('styles'));
 });
-
-
-// gulp.task('autoprefix', () =>
-//     gulp.src('src/app.css')
-//         .pipe(autoprefixer({
-//             browsers: ['last 2 versions'],
-//             cascade: false
-//         }))
-//         .pipe(gulp.dest('style'))
-// );
