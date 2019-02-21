@@ -10,6 +10,11 @@ A CV Page created by React Library and Css, The page is responsive and accessibl
 * HTML5
 * CSS3
 
+## Dependencies
+
+* NPM
+* Gulp
+
 ## How to run
 
 Clone the folder using this command ```git clone https://github.com/saher-elgendy/CV-Page```, then run this command in the project folder ```npm start```, Node.js must be installed in your machine.
