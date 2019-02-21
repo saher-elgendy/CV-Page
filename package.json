@@ -3,10 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "i": "^0.3.6",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
-    "react-scripts": "^2.1.5"
+    "react-scripts": "2.1.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -25,19 +24,6 @@
   ],
   "devDependencies": {
     "gulp": "^4.0.0",
-    "gulp-autoprefixer": "^6.0.0",
-    "postcss-prettify": "^0.3.4"
-  },
-  "description": "## Overview",
-  "main": "gulpfile.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/saher-elgendy/CV-Page.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/saher-elgendy/CV-Page/issues"
-  },
-  "homepage": "https://github.com/saher-elgendy/CV-Page#readme"
+    "gulp-autoprefixer": "^6.0.0"
+  }
 }
