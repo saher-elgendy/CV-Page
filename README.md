@@ -2,7 +2,7 @@
 
 ## Overview
 
-A CV Page created by React Library and CSS3. The Website is repsonsive and accessible.
+A CV Page created by React Library and CSS3. The Website is responsive and accessible.
 
 ## Libraries and Languages
 
